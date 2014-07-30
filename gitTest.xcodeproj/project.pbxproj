@@ -21,6 +21,7 @@
 		D51CC30F198974B000DBD42D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D51CC2F1198974AF00DBD42D /* UIKit.framework */; };
 		D51CC317198974B000DBD42D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D51CC315198974B000DBD42D /* InfoPlist.strings */; };
 		D51CC319198974B000DBD42D /* gitTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D51CC318198974B000DBD42D /* gitTestTests.m */; };
+		D51CC32419897A7100DBD42D /* JHtest.m in Sources */ = {isa = PBXBuildFile; fileRef = D51CC32319897A7100DBD42D /* JHtest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		D51CC314198974B000DBD42D /* gitTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "gitTestTests-Info.plist"; sourceTree = "<group>"; };
 		D51CC316198974B000DBD42D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D51CC318198974B000DBD42D /* gitTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gitTestTests.m; sourceTree = "<group>"; };
+		D51CC32219897A7100DBD42D /* JHtest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHtest.h; sourceTree = "<group>"; };
+		D51CC32319897A7100DBD42D /* JHtest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHtest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		D51CC2E1198974AF00DBD42D = {
 			isa = PBXGroup;
 			children = (
+				D51CC32219897A7100DBD42D /* JHtest.h */,
+				D51CC32319897A7100DBD42D /* JHtest.m */,
 				D51CC2F3198974AF00DBD42D /* gitTest */,
 				D51CC312198974B000DBD42D /* gitTestTests */,
 				D51CC2EC198974AF00DBD42D /* Frameworks */,
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D51CC2FE198974AF00DBD42D /* JHAppDelegate.m in Sources */,
+				D51CC32419897A7100DBD42D /* JHtest.m in Sources */,
 				D51CC304198974AF00DBD42D /* JHViewController.m in Sources */,
 				D51CC2FA198974AF00DBD42D /* main.m in Sources */,
 			);
